@@ -1,68 +1,78 @@
+# "App web de microblogging con MERN" (Front-end)
+
+Aplicación web del proyecto "Aplicación web de microblogging con MERN", creada con ReactJS. La aplicación consume la [API REST del back-end](https://github.com/jfontecha/microblogging-example-api).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-### `npm start`
+### Pre-requisitos 📋
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Se requiere la instalación de node y el gestor de paquetes npm.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Instalación 🔧
 
-### `npm test`
+_Instrucciones para la ejecución de la aplicación web en local:_
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Se necesitarán instalar las dependencias del proyecto y setear las siguientes variables de entorno (o bien crear un fichero ".env" con las mismas):
 
-### `npm run build`
+| Variable | Valor |
+| ------------- | ------------- |
+| REACT_APP_APIURI | "URL de la API REST"  |
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Instalación de dependencias:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```
+npm install
+```
+
+Ejecución de la aplicación React:
+
+```
+npm start
+```
+
+_Una vez ejecutada, estará disponible en la URL definida (por ejemplo: "http://localhost:3000")_
+
+Creación del bundle de producción:
+
+```
+npm run build
+```
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Despliegue en heroku 📦
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_Adicionalmente puedes desplegar la aplicación en la plataforma [Heroku](https://heroku.com/)._
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para ello, podrás crear una aplicación en Heroku y conectarla al repositorio Github dónde tengas alojado este proyecto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Construido con 🛠️
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Esste proyecto ha sido creado con:_
 
-## Learn More
+* [ReactJS](https://es.reactjs.org/) - Framework para el desarrollo de aplicaciones front-end
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Más información 📖
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Puedes encontrar más información del proyecto en [Desarrollo web full-stack con MERN](https://jesusfontecha.name/mern/)
 
-### Code Splitting
+📢 _Echa un vistazo a los proyectos relacionados con este:_
+* [API REST](https://github.com/jfontecha/microblogging-example-api)
+* [Aplicación web con React hooks](https://github.com/jfontecha/microblogging-example-react-hooks)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Autores ✒️
 
-### Analyzing the Bundle Size
+_Proyecto desarrollado por:_
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* **Jesús Fontecha** - [jfontecha](https://github.com/jfontecha)
 
-### Making a Progressive Web App
+## Licencia 📄
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Este proyecto es _opensource_ y se ha desarrollado con fines exclusivamente académicos. Si lo descargas, al menos menciona al autor 🤓🍺.
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+_Made with love for a smarter world_ ❤️
