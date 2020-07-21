@@ -4,6 +4,8 @@ Aplicación web del proyecto "Aplicación web de microblogging con MERN", creada
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![](https://jfontecha.github.io/images/react_microblogging.png)
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
@@ -48,7 +50,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 _Adicionalmente puedes desplegar la aplicación en la plataforma [Heroku](https://heroku.com/)._
 
-Para ello, podrás crear una aplicación en Heroku y conectarla al repositorio Github dónde tengas alojado este proyecto.
+Para ello, podrás crear una aplicación en Heroku y conectarla al repositorio Github dónde tengas alojado este proyecto. Es recomendable instalar un _buildpack_ si se desea desplegar en producción.
 
 ## Construido con 🛠️
 
